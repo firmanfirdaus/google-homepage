@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header id="topnav">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#" class="google-apps"></a></li>
+                <li><a href="#" class="btn-sign-in">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <div id="searchform">
+            <form action="/search">
+                <div class="searchform-input">
+                    <span class="magnifying-glass">
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        </svg>
+                    </span>
+                    <input type="search" >
+                </div>
+                <div class="search-buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+        <div class="other-languages">
+            <span>Google offered in:</span>
+            <span><a href="#">Indonesia</a></span>
+            <span><a href="#">Basa Bali</a></span>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <span class="current-country">Indonesia</span>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
